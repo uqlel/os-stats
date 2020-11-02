@@ -6,8 +6,13 @@
 
 ## Instalacja
 **Wymagania:** `node.js v12.18.3`, `npm v6.14.6`
-
+Wykonaj:
 ```sh
 npm install
-node app.js 
 ```
+## Uruchamianie
+Wykonaj:
+```sh
+node app.js
+```
+Wejdź w URL: `localhost:3000`
