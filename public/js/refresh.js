@@ -1,1 +1,5 @@
-setTimeout(() => {  window.location.reload(true); }, 2000);
+function odswiezenie(){
+    $("html").load('/');
+    setTimeout(odswiezenie, 100)
+}
+odswiezenie()
