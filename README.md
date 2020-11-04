@@ -1,6 +1,6 @@
 <p align="center">
 <h1 align="center">Statystki mocy obliczeniowej</h1>
-
+<h2> align="center"><a href="https://github.com/uqlel/os-stats/tree/electron">Wersja Desktop (electron)</a></h2>
 </p>
 
 
