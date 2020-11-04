@@ -12,9 +12,13 @@ router.get("/", async function(req,res){
     .then(info => {
         ram = 100 - Number(info.freeMemPercentage)
     })
+    var cpuModel = osu.cpu.model()
+    var cpuCount = osu.cpu.count()
     res.render("index", {
         CPU: cpu,
-        RAM: ram
+        RAM: ram,
+        CPUMODEL: cpuModel,
+        CPUCOUNT: cpuCount
     });
-});
+}); 
 module.exports = router;
