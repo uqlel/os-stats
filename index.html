@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Statystyki użycia</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="get-stats.js"></script>
+        <script src="refresh.js"></script>
+    </head>
+    <body>
+        <center>
+            <div class="container">
+            <script>
+            document.write(`<h1>CPU (${cpuModel} x${cpuCount}):</h1>`)
+            </script>
+            <div class="progress">
+                <script>
+                document.write(`<div class="progress-bar" role="progressbar" aria-valuenow="${cpu}" aria-valuemin="0" aria-valuemax="100" style="width:${cpu}%">`)
+                document.write(cpu + "%")  
+                </script>
+                </div>
+              </div>
+              <h1>RAM:</h1>
+              <div class="progress">
+                  <script>
+                  document.write(`<div class="progress-bar" role="progressbar" aria-valuenow="${ram}" aria-valuemin="0" aria-valuemax="100" style="width:${ram}%">`)
+                  document.write(ram + "%")  
+                  </script>
+                  </div>
+                </div>
+          </div><br><br>
+        </div>
+        </center>
+    </body>
+</html>

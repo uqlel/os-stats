@@ -1,0 +1,1 @@
+setTimeout(() => {  window.location.reload(true); }, 100)
