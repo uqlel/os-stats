@@ -1,5 +1,5 @@
 <p align="center">
-<h1 align="center">Statystki mocy obliczeniowej</h1>
+<h1 align="center">OS STATS - wersja server</h1>
 <h2 align="center"><a href="https://github.com/uqlel/os-stats/tree/electron">Wersja Desktop (electron)</a></h2>
 </p>
 
@@ -15,4 +15,4 @@ Wykonaj:
 ```sh
 node app.js
 ```
-Wejdź w URL: `localhost:3000`
+Wejdź w URL: `IP:3000`
