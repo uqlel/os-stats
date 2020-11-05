@@ -1,6 +1,6 @@
 <p align="center">
 <h1 align="center">OS STATS - wersja desktop (electron)</h1>
-<h2 align="center"><a href="https://github.com/uqlel/os-stats/tree/electron">Wersja server (express.js)</a></h2>
+<h2 align="center"><a href="https://github.com/uqlel/os-stats/tree/express">Wersja server (express.js)</a></h2>
 </p>
 
 
